@@ -23,7 +23,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay.Detail">
+    <style name="AppTheme.AppBarOverlay.Detail" parent="@style/AppTheme">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
