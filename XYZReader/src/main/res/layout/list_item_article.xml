@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="4dp"
-    android:elevation="1dp"
+    android:elevation="@dimen/card_elevation"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
@@ -17,7 +17,7 @@
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/card_photo_height"
             android:layout_gravity="center"
             android:scaleType="centerCrop" />
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:padding="8dp"
+            android:padding="@dimen/card_padding"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black"
             tools:text="Article title" />
@@ -38,9 +38,9 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:paddingBottom="8dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
+            android:paddingBottom="@dimen/card_padding"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
             tools:text="Jan 1, 1971\nby Author" />
     </LinearLayout>
