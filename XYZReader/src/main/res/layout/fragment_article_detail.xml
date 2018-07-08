@@ -40,7 +40,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/detail_card_top_margin"
                 android:background="#fff"
-                android:elevation="@dimen/toolbar_elevation"
+                android:elevation="@dimen/appbar_elevation"
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:orientation="vertical">
 
